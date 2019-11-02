@@ -1,29 +1,29 @@
 # Site/SEO settings
-email: eungggggg@gmail.com
+email: dajun9199@gmail.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-name: Eunji Jeong
+name: Da Jun Yoo
 title: Portfolio
 description: >
-  Eunji Jeong - a Product Designer's Portfolio
-url: https://eungggggg.github.io
-twitter_username: eungggggg
+  Da Jun Yoo - Visual Designer's Portfolio
+url: https://dyoo1.github.io
+twitter_username: dajunnyy
 default_img: /assets/images/seo.jpg
 social:
   # - name: twitter
-  #   url: https://twitter.com/eungggggg
+  #   url: https://twitter.com/dajunnyy
   - name: instagram
-    url: https://www.instagram.com/eungggggg/
+    url: https://www.instagram.com/dajunnyy/
   - name: dribbble
-    url: https://dribbble.com/eungggg
+    url: https://dribbble.com/dyoo1
   - name: behance
-    url: https://www.behance.net/eungggggg
+    url: https://www.behance.net/dyoo1
   - name: linkedin
-    url: https://www.linkedin.com/in/eungggggg/
+    url: https://www.linkedin.com/in/djy9199/
   - name: github
-    url: https://github.com/eungggggg
+    url: https://github.com/dyoo1
   # - name: codepen
   #   url: https://codepen.io/eungggggg/
 
