@@ -16,11 +16,11 @@ social:
   #   url: https://twitter.com/dajunnyy
   - name: instagram
     url: https://www.instagram.com/dajunnyy/
-  - name: dribbble
-    url: https://dribbble.com/dyoo1
-  - name: behance
-    url: https://www.behance.net/dyoo1
-  - name: linkedin
+  # - name: dribbble
+  #   url: https://dribbble.com/dyoo1
+  # - name: behance
+  #   url: https://www.behance.net/dyoo1
+  # - name: linkedin
     url: https://www.linkedin.com/in/djy9199/
   - name: github
     url: https://github.com/dyoo1
