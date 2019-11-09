@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
 html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
-	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
+	font-family: "Montserrat","Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
 	line-height: 1.6;
 }
 
 ::selection {    
-    background: #3562ff;
+    background: #0c00ff;
 }
 
 /* header */
@@ -18,9 +20,10 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 
 .intro{
 	padding: 1em 8vw;
-	font-size: 2em;
-	font-weight: bold;
-	color: #0c00ff;
+	font-size: 2.3em;
+	/*/ font-weight: bold; /*/
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
 }
 @media (max-width: 768px){
 	.intro{
@@ -28,12 +31,18 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	}
 }
 
+
+#markdown a{
+	border-bottom: 0;	
+	box-shadow: none;
+}
+
 .header__title{
 	font-size: 28px;
 }
 
 .header__title:hover{
-	color: #3562ff;
+	color: #0c00ff;
 }
 
 .header__list>*{
@@ -45,7 +54,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 .header__list li.active a, .header__list li:hover *{
-	color: #3562ff;
+	color: #0c00ff;
 	display: block;
 }
 
@@ -87,6 +96,7 @@ main{
 	padding: 0 8vw 4em 8vw;
 	background-color: white;
 	color: #000;
+	font-family: APPLE SD Gothic Neo;
 }
 .footer__container{
 	margin: 0;
@@ -99,8 +109,8 @@ main{
 
 .footer__container ul a{
 	color: #000;
-	text-decoration: underline;
-	font-size: 1.5em;
+	/*text-decoration: underline;*/
+	font-size: 1em;
 }
 
 .copyright{
@@ -143,6 +153,21 @@ main{
 	margin: 40px 0 0 0;
 }
 
-.pinspot{
-	background-color: #e7edf0;
+.Joie{
+	background-color: #fff;
 }
+
+
+.intro span{
+	color: #0c00ff;
+	font-weight: 600;
+}
+
+#markdown a.resume{
+	margin-top: auto;
+	color: #0c00ff;
+	border: 3px solid #0c00ff;
+	padding: 10px;
+
+}
+

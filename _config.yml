@@ -12,20 +12,23 @@ url: https://dyoo1.github.io
 twitter_username: dajunnyy
 default_img: /assets/images/Voiceskin.png
 social:
-  # - name: twitter
-  #   url: https://twitter.com/dajunnyy
-  - name: instagram
+  - name: Twitter
+  - url: https://twitter.com/dajunnyy
+  - name: Instagram
     url: https://www.instagram.com/dajunnyy/
   # - name: dribbble
   #   url: https://dribbble.com/dyoo1
   # - name: behance
   #   url: https://www.behance.net/dyoo1
-  # - name: linkedin
+  - name: Linkedin
     url: https://www.linkedin.com/in/djy9199/
-  - name: github
-    url: https://github.com/dyoo1
+  # name: github
+  # url: https://github.com/dyoo1
   # - name: codepen
   #   url: https://codepen.io/eungggggg/
+  - name: Contact
+    url: mailto:dajun9199@gmail.com
+    
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
