@@ -18,8 +18,9 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 
 .intro{
 	padding: 1em 8vw;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: bold;
+	color: #0c00ff;
 }
 @media (max-width: 768px){
 	.intro{
