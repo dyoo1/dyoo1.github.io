@@ -1,10 +1,10 @@
 # Site/SEO settings
 email: dajun9199@gmail.com
 baseurl: ""
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 google_analytics: 
 
-name: Da Jun Yoo
+name: Da Jun Yoo - Portfolio
 title: Portfolio
 description: >
   Da Jun Yoo - Visual Designer's Portfolio
