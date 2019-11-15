@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 ::selection {    
-    background: #0c00ff;
+    background: #7300ff;
 }
 
 /* header */
@@ -15,11 +15,11 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	box-shadow: none;
 	padding: 3em 8vw;
 	background-color: white;
-	color: #0c00ff;
+	color: #7300ff;
 }
 
 .intro{
-	padding: 1em 8vw;
+	padding: 0em 8vw;
 	font-size: 2.3em;
 	/*/ font-weight: bold; /*/
 	color: #000;
@@ -34,7 +34,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 
 .about{
 	font-size: 1em;
-	font-family: "Source Sans Pro",sans-serif;
+	font-family: "SAPPLE SD Gothic Neo",sans-serif;
 }
 
 
@@ -45,14 +45,19 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 
 .header__title{
 	font-size: 28px;
+	/*font-family: 'Montserrat'*/
+	
 }
 
 .header__title:hover{
-	color: #0c00ff;
+	color: #7300ff;
+	font-weight: 600;
 }
 
 .header__list>*{
-	font-size: 1em;
+	font-size: 0.8em;
+	font-weight: 500;
+
 }
 
 .header__list li *{
@@ -60,7 +65,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 .header__list li.active a, .header__list li:hover *{
-	color: #0c00ff;
+	color: #7300ff;
 	display: block;
 }
 
@@ -166,21 +171,29 @@ main{
 
 
 .intro span{
-	color: #0c00ff;
+	/*color: #0c00ff;*/
+	color: #7300ff;
 	font-weight: 600;
 }
 
-#markdown a.resume{
-	/*margin-top: auto;
-	color: #0c00ff;
-	border: 3px solid #0c00ff;
-	padding: 10px;
+.about span{
+	color: #7300ff;
+	font-weight: bold;
+}
 
-	*/display: inline-block;
+
+
+#markdown a.resume{
+	/*margin-top: auto;*/
+	color: #7300ff;
+	/*border: 3px solid #0c00ff;
+	padding: 10px;*/
+
+	display: inline-block;
     /*font-family: "Source Sans Pro",sans-serif;*/
     padding: 8px 28px;
     border-radius: 100px;
-    border: solid 3px #0c00ff;
+    border: solid 3px #7300ff;
     font-size: 20px;
     margin: 0 8px 14px 0;
 
