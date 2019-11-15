@@ -27,8 +27,14 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 @media (max-width: 768px){
 	.intro{
-		font-size: 2.5em;
+		font-size: 1.5em;
+
 	}
+}
+
+.about{
+	font-size: 1em;
+	font-family: "Source Sans Pro",sans-serif;
 }
 
 
@@ -99,7 +105,7 @@ main{
 	font-family: APPLE SD Gothic Neo;
 }
 .footer__container{
-	margin: 0;
+	margin: 10;
 }
 
 .footer__container ul{
@@ -128,6 +134,7 @@ main{
 	width: 100%;
 	max-width: 1400px;
 	padding: 0 3vw
+
 }
 
 
@@ -135,27 +142,27 @@ main{
 	text-align: center;
 	margin-bottom: 40px;
 }
+
 .work>div{
 	padding-bottom: 20vw;
 }
 .work img{
 	max-width: 1200px;
 }
-.halo{
-	background-color: #1c273d;
+.pickie{
+	background-color: #f1f1f1;
 }
 
 .halo img{
 	margin: 0;
 	display: inline-block;
 }
+
 .halo .img_interaction{
 	margin: 40px 0 0 0;
 }
 
-.Joie{
-	background-color: #fff;
-}
+
 
 
 .intro span{
@@ -164,10 +171,18 @@ main{
 }
 
 #markdown a.resume{
-	margin-top: auto;
+	/*margin-top: auto;
 	color: #0c00ff;
 	border: 3px solid #0c00ff;
 	padding: 10px;
+
+	*/display: inline-block;
+    /*font-family: "Source Sans Pro",sans-serif;*/
+    padding: 8px 28px;
+    border-radius: 100px;
+    border: solid 3px #0c00ff;
+    font-size: 20px;
+    margin: 0 8px 14px 0;
 
 }
 
