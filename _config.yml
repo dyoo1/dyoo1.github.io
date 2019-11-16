@@ -12,8 +12,8 @@ url: https://dyoo1.github.io
 twitter_username: dajunnyy
 default_img: /assets/images/Voiceskin.png
 social:
-  - name: Twitter
-  - url: https://twitter.com/dajunnyy
+  # - name: Twitter
+  # - url: https://twitter.com/dajunnyy
   - name: Instagram
     url: https://www.instagram.com/dajunnyy/
   # - name: dribbble
@@ -28,6 +28,8 @@ social:
   #   url: https://codepen.io/eungggggg/
   - name: Contact
     url: mailto:dajun9199@gmail.com
+
+    
     
 
 # Contact settings

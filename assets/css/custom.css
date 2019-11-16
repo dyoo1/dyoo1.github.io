@@ -199,3 +199,9 @@ main{
 
 }
 
+#markdown a.resume:hover{
+
+	color: #9644f9;
+	border: solid 3px #9644f9;
+}
+
