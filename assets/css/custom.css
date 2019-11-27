@@ -201,7 +201,8 @@ main{
 
 #markdown a.resume:hover{
 
-	color: #9644f9;
+	background-color: #9644f9;
+	color: white;
 	border: solid 3px #9644f9;
 }
 
