@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 ::selection {    
-    background: #7300ff;
+    background: #36ff00;
 }
 
 /* header */
@@ -15,8 +15,9 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	box-shadow: none;
 	padding: 3em 8vw;
 	background-color: white;
-	color: #7300ff;
+	color: #36ff00;
 }
+
 
 .intro{
 	padding: 0em 8vw;
@@ -50,9 +51,10 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 .header__title:hover{
-	color: #7300ff;
+	color: #36ff00;
 	font-weight: 600;
 }
+
 
 .header__list>*{
 	font-size: 0.8em;
@@ -65,9 +67,13 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 .header__list li.active a, .header__list li:hover *{
-	color: #7300ff;
+	color: #36ff00;
 	display: block;
 }
+
+
+
+
 
 /* main */
 main{
@@ -170,22 +176,41 @@ main{
 
 
 
+.intro span.name{
+	/*color: #0c00ff;*/
+	color: #000;
+	font-weight: 600;
+}
+
 .intro span{
 	/*color: #0c00ff;*/
-	color: #7300ff;
+	color: #36ff00;
 	font-weight: 600;
 }
 
 .about span{
-	color: #7300ff;
+	color: #36ff00;
 	font-weight: bold;
 }
+
+.about span.email{
+	/*color: #0c00ff;*/
+	color: #fff;
+	font-weight: 400;
+}
+
+.about span.email:hover{
+	/*color: #0c00ff;*/
+	color: #36ff00;
+	font-weight: 600;
+}
+
 
 
 
 #markdown a.resume{
 	/*margin-top: auto;*/
-	color: #7300ff;
+	color: #36ff00;
 	/*border: 3px solid #0c00ff;
 	padding: 10px;*/
 
@@ -193,7 +218,7 @@ main{
     /*font-family: "Source Sans Pro",sans-serif;*/
     padding: 8px 28px;
     border-radius: 100px;
-    border: solid 3px #7300ff;
+    border: solid 3px #36ff00;
     font-size: 20px;
     margin: 0 8px 14px 0;
 
@@ -201,8 +226,8 @@ main{
 
 #markdown a.resume:hover{
 
-	background-color: #9644f9;
+	background-color: #36ff00;
 	color: white;
-	border: solid 3px #9644f9;
+	border: solid 3px #36ff00;
 }
 
