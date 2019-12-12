@@ -1,13 +1,15 @@
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');*/
-@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');*/
+@import url(//db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular);
+
 
 html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
-	font-family: "Montserrat","Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
+	font-family: AvertaStd-Regular, "Montserrat","Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
 	line-height: 1.6;
 }
 
 ::selection {    
-    background: #36ff00;
+    background: #00d563;
 }
 
 /* header */
@@ -25,7 +27,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	font-size: 2em;
 	/*/ font-weight: bold; /*/
 	color: #000;
-	font-family: /*'Montserrat', sans-serif;*/'Varela', sans-serif;
+	font-family: /*'Montserrat', sans-serif;*//*'Varela', sans-serif;*/AvertaStd-Regular;
 
 }
 @media (max-width: 768px){
@@ -38,7 +40,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 .about{
 	font-size: 1em;
 	/*font-family: "SAPPLE SD Gothic Neo",sans-serif;*/
-	font-family:'Varela', sans-serif;
+	font-family: AvertaStd-Regular;
 	
 }
 
@@ -55,13 +57,13 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 .header__title:hover{
-	color: #36ff00;
+	color: #00d563;
 	font-weight: 600;
 }
 
 
 .header__list>*{
-	font-family:'Varela', sans-serif;
+	font-family: AvertaStd-Regular;
 	
 	font-size: 0.9em;
 	font-weight: 500;
@@ -73,7 +75,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 }
 
 .header__list li.active a, .header__list li:hover *{
-	color: #36ff00;
+	color: #00d563;
 	display: block;
 }
 
@@ -190,12 +192,12 @@ main{
 
 .intro span{
 	/*color: #0c00ff;*/
-	color: #36ff00;
+	color: #00d563;
 	font-weight: 600;
 }
 
 .about span{
-	color: #36ff00;
+	color: #00d563;
 	font-weight: bold;
 }
 
@@ -207,7 +209,7 @@ main{
 
 .about span.email:hover{
 	/*color: #0c00ff;*/
-	color: #36ff00;
+	color: #00d563;
 	font-weight: 600;
 }
 
@@ -216,7 +218,7 @@ main{
 
 #markdown a.resume{
 	/*margin-top: auto;*/
-	color: #36ff00;
+	color: #00d563;
 	/*border: 3px solid #0c00ff;
 	padding: 10px;*/
 
@@ -224,7 +226,7 @@ main{
     /*font-family: "Source Sans Pro",sans-serif;*/
     padding: 8px 28px;
     border-radius: 100px;
-    border: solid 3px #36ff00;
+    border: solid 3px #00d563;
     font-size: 20px;
     margin: 0 8px 14px 0;
 
@@ -232,8 +234,8 @@ main{
 
 #markdown a.resume:hover{
 
-	background-color: #36ff00;
+	background-color: #00d563;
 	color: white;
-	border: solid 3px #36ff00;
+	border: solid 3px #00d563;
 }
 
