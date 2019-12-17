@@ -4,7 +4,7 @@
 
 
 html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
-	font-family: AvertaStd-Regular, "Montserrat","Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
+	font-family: "AvertaStd-Regular", "Montserrat","Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
 	line-height: 1.6;
 }
 
@@ -27,7 +27,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	font-size: 2em;
 	/*/ font-weight: bold; /*/
 	color: #000;
-	font-family: AvertaStd-Regular;
+	font-family: "AvertaStd-Regular";
 
 }
 @media (max-width: 768px){
@@ -39,7 +39,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 
 .about{
 	font-size: 1em;
-	font-family: AvertaStd-Regular;
+	font-family: "AvertaStd-Regular";
 	
 }
 
@@ -52,6 +52,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 .header__title{
 	font-size: 28px;
 	/*font-family: 'Montserrat'*/
+	font-family: AvertaStd-Regular;
 
 }
 
