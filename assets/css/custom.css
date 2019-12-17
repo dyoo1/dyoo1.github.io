@@ -27,7 +27,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	font-size: 2em;
 	/*/ font-weight: bold; /*/
 	color: #000;
-	font-family: /*'Montserrat', sans-serif;*//*'Varela', sans-serif;*/AvertaStd-Regular;
+	font-family: AvertaStd-Regular;
 
 }
 @media (max-width: 768px){
