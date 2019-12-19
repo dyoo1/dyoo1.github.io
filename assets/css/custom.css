@@ -210,7 +210,7 @@ main{
 
 .about span{
 	color: #00d563;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .about span.email{
